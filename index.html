@@ -20,25 +20,38 @@
   <body>
 
     <header class="container-fluid">
-        <div class="row">
-          <nav class="navbar bg-body-tertiary bg-color">                                                    
-           <div>
-                <a class="navbar-brand" href="#"> <img id="logo" src="./img/duck.png" alt=" Logo "></a>
-                <ul class="ul-header">
-                    <li> Catalogo Libri </li>
-                    <li> Anagrafica Utenti </li>
-                    <li> Storico Presenti </li>
-                    <li> Help </li>
+
+        <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary row">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img id="logo" src="./img/duck.png" alt="Logo" >
+              </a>
+              
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Anagrafe Utenti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Storico Prestiti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Help</a>
+                  </li>
                 </ul>
-           </div>
-            <div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </form>
+              </div>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
           </nav>
-        </div>
 
     </header>
 
