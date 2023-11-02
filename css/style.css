@@ -13,3 +13,13 @@
 .bg-color {
     background-color: #23272a;;
 }
+
+.ul-header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
